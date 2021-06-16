@@ -1,0 +1,13 @@
+.button{
+    background:  var(--prouple);
+    border: 2px solid #310A90;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--withe);
+    font: var(--button);
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    text-transform: uppercase;
+}
