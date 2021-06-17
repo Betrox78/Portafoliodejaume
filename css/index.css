@@ -1,5 +1,9 @@
 @import "./button.css";
-
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
 :root {
     --fontBase: 'Poppins', sans-serif;
     --headLine1: bold 95px/153.71 var(--fontBase);
@@ -15,18 +19,12 @@
     --green: #42E2B8;
     --prouple: #310A90;
     --withe: #fff;
-
+     text-align: center;
 }
 
 body{
     background:  var(--gradient);
     min-block-size: 100vh;
     font: var(--body1);
-    
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-
+    color: var(--prouple);
 }

@@ -10,4 +10,11 @@
     padding-block-start: 13px;
     padding-block-end: 13px;
     text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+}
+.button.is-secondary{
+    background: unset;
+    color: var(--prouple);
+    border: 2px solid var(--prouple)
 }
