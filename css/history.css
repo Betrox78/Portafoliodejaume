@@ -1,0 +1,31 @@
+.history-comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.comment p{
+    font: var(--body3);
+}
+.comment p span{
+    display: inherit;
+    font: var(--headLine5)
+}
+
+@media screen and (min-width: 768px) {     
+    .history-comment {
+     
+        padding: 0px;
+    }
+    
+ }
+     @media screen and (min-width: 1024px) {
+        .history-comment {
+            padding-block-start: 200px;
+            padding-block-end: 200px;
+            padding-inline-start: 100px;
+            padding-inline-end: 100px;
+           
+        }
+     }  

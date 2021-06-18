@@ -6,9 +6,7 @@
     flex-direction: column;
     gap: 16px;
 }
-.hero-social{
-    padding-block-end: 24px;
-}
+
 .hero-image{
     text-align: center;
   
@@ -26,7 +24,6 @@
 
 @media screen and (min-width: 768px) {     
 .hero{
-    border: 1px solid red;
     display: flex;
     gap: 32px;
 }
@@ -38,6 +35,10 @@
     order: 2;
     flex: 1;
     text-align: end;
+}
+.hero-image img{
+    max-inline-size: 100% ;
+    block-size: auto;
 }
 
  }

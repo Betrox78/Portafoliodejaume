@@ -1,0 +1,64 @@
+.contactanos{
+    padding: 40px 0 80px 0;
+    max-width: 543px;
+    margin: auto;
+}
+
+.contactanos p{
+    font: var(--body1);
+    color: vaR(--white);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form .items{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+form .items label{
+    padding-left: 16px;
+    font: var(--headline6);
+}
+
+form .items label span{
+    color: var(--rojo);
+}
+
+form .items input[type="text"]{
+    padding: 12px 16px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid var(--gris);
+}
+
+form .items input[type="text"]::placeholder{
+    font: var(--body1);
+}
+
+form .items textarea{
+    border-radius: 8px;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .contactanos .enlace-fijo{
+        display: block;
+        text-align: center;
+    }
+
+    .contactanos p{
+        margin: 16px 0 24px;
+    }
+
+    form .button{
+        width: 100%;
+        margin: 0;
+    }
+}

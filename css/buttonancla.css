@@ -1,0 +1,17 @@
+.ancla-title{
+    background: var(--prouple);
+    display: flex;
+    color: var(--withe) ;
+    flex-direction: column;
+    gap: 16px;
+    text-transform: none;
+    align-self: flex-start;
+    font: var(--headLine5);
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    padding-inline-start: 8px;
+    padding-inline-end: 4px;
+    margin-inline-start: 4px;
+    box-shadow: -4px 4px 0 var(--withe);
+    text-decoration: none;
+}
